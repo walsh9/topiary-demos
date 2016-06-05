@@ -16,7 +16,8 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
-    "@walsh9/topiary": "^0.1.0"
+    "@walsh9/topiary": "^0.1.0",
+    "korg-nano-kontrol": "^0.2.9"
   },
   "repository": {
     "type": "git",

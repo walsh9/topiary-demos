@@ -5,7 +5,8 @@ module.exports = {
   entry: {
     animation: './animation/demo.js',
     generator: './generator/demo.js',
-    parallax: './parallax/demo.js'
+    parallax: './parallax/demo.js',
+    nanokontrol: './nanokontrol/demo.js'
   },
   output: {
       path: './',
@@ -33,4 +34,7 @@ module.exports = {
       colors: true
   },
   debug: true,
+  node: {
+    fs: 'empty'
+  }
 };
